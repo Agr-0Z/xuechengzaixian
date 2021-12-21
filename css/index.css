@@ -1,0 +1,498 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+/* 版心 */
+
+.center {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #f3f5f7;
+}
+
+
+/* 头部logo */
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+header .header-nav {
+    height: 100px;
+    padding-top: 30px;
+    box-sizing: border-box;
+    /* background-color: #666666; */
+}
+
+header .header-nav img {
+    width: 196px;
+    height: 44px;
+    float: left;
+}
+
+header .header-nav ul {
+    float: left;
+    margin-left: 79px;
+}
+
+header .header-nav ul li {
+    height: 44px;
+    text-align: center;
+    padding-right: 44px;
+    box-sizing: border-box;
+    line-height: 44px;
+    list-style: none;
+    float: left;
+}
+
+header .header-nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-bottom: 6px;
+    box-sizing: border-box;
+    color: #050505;
+}
+
+header .header-nav ul li a:hover {
+    border-bottom: 2px solid #00a4ff;
+}
+
+header .header-nav .header-keyword {
+    width: 412px;
+    height: 40px;
+    float: left;
+}
+
+header .header-nav .header-keyword input {
+    width: 361px;
+    height: 40px;
+    float: left;
+    border: 1px solid #00a4ff;
+    box-sizing: border-box;
+}
+
+header .header-nav .header-keyword input::placeholder {
+    font-size: 14px;
+    color: #bfbfbf;
+}
+
+header .header-nav .header-keyword button {
+    width: 51px;
+    height: 40px;
+    float: left;
+    border: 0;
+    background: url(../image/btn.png);
+}
+
+header .header-nav .header-keyword button:hover {
+    cursor: pointer;
+}
+
+header .header-nav .heard-user {
+    width: 118px;
+    height: 30px;
+    float: left;
+    /* line-height: 30px; */
+    vertical-align: middle;
+    margin: 5px 0 0 30px;
+    text-indent: 40px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+header .header-nav .heard-user::before {
+    content: '';
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../image/user.png);
+}
+
+
+/* 蓝色背景 */
+
+.xuecheng-full {
+    width: 100%;
+    height: 420px;
+    background-color: #1c036c;
+}
+
+
+/* banner图 */
+
+.xuecheng-full .xuecheng-banner {
+    height: 420px;
+    background: url(../image/banner2.png);
+}
+
+
+/* banner图侧边导航栏 */
+
+.xuecheng-banner ul {
+    width: 190px;
+    height: 420px;
+    float: left;
+    padding: 28px 20px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.xuecheng-banner ul li {
+    font-size: 14px;
+    list-style: none;
+    letter-spacing: 1px;
+    margin-bottom: 26px;
+    width: 150px;
+}
+
+.xuecheng-banner ul li span {
+    float: right;
+}
+
+.xuecheng-banner ul li:hover {
+    cursor: pointer;
+    color: #00b4ff;
+}
+
+
+/* banner图我的课程表 */
+
+.xuecheng-full .xuecheng-banner .xuecheng-class {
+    width: 228px;
+    height: 300px;
+    float: right;
+    margin-top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+
+.xuecheng-class .myclass {
+    width: 100%;
+    height: 48px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 48px;
+    color: #ffffff;
+    background-color: #9bceea;
+}
+
+.xuecheng-class ul {
+    width: 100%;
+    height: 196px;
+    padding: 0 19px;
+    background-color: #ffffff;
+}
+
+.xuecheng-class ul li {
+    width: 100%;
+    height: 59px;
+    margin: 0;
+    padding-top: 12px;
+    box-sizing: border-box;
+    border-bottom: 2px solid #e5e5e5;
+}
+
+.xuecheng-class ul li h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #4e4e4e;
+}
+
+.xuecheng-class ul li p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #a5a5a5;
+}
+
+.xuecheng-class button {
+    width: 200px;
+    height: 41px;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #00a4ff;
+    margin: 4px 0px 0px 14px;
+    border: 1px solid #00a4ff;
+    background-color: #ffffff;
+}
+
+
+/* 推荐导航栏 */
+
+.xuecheng-tuijian-nav {
+    height: 60px;
+    margin-top: 8px;
+    position: relative;
+    box-shadow: 0px 2px 3px 0px rgba(118, 118, 118, 0.2);
+}
+
+.xuecheng-tuijian-nav ul {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.xuecheng-tuijian-nav ul li {
+    width: 116px;
+    list-style: none;
+    font-size: 16px;
+    text-align: center;
+    float: left;
+    color: #050505;
+    border-right: 1px solid #bfbfbf;
+}
+
+.xuecheng-tuijian-nav ul li:hover {
+    color: #00a4ff;
+    cursor: pointer;
+}
+
+.xuecheng-tuijian-nav span {
+    float: right;
+    margin-top: 19px;
+    margin-right: 19px;
+}
+
+.xuecheng-tuijian-nav span:hover {
+    color: #00a4ff;
+    cursor: pointer;
+}
+
+
+/* 精品推荐 */
+
+.boutique {
+    height: 595px;
+    margin-top: 37px;
+    /* background-color: #9bceea; */
+}
+
+.boutique nav {
+    width: 100%;
+    height: 40px;
+    /* background-color: #bfbfbf; */
+}
+
+.boutique nav h5 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.boutique nav span {
+    float: right;
+    font-size: 12px;
+    margin: 8px 35px 0 0;
+    color: #a5a5a5;
+}
+
+.boutique ul li {
+    width: 228px;
+    height: 270px;
+    list-style: none;
+    float: left;
+    margin: 0 15px 15px 0;
+    position: relative;
+    /* background-color: aquamarine; */
+}
+
+.boutique ul li:nth-child(5n) {
+    margin-right: 0;
+}
+
+.boutique ul li img {
+    width: 228px;
+    height: 155px;
+}
+
+.boutique ul li::after {
+    content: '';
+    width: 40px;
+    height: 24px;
+    background: url(../image/new.png);
+    position: absolute;
+    top: 3px;
+    right: -4px;
+}
+
+.boutique ul li h6 {
+    width: 184px;
+    height: 32px;
+    font-size: 14px;
+    margin: 25px 0 0 24px;
+    color: #050505;
+}
+
+.boutique ul li p {
+    font-size: 12px;
+    margin: 25px 0 0 20px;
+    color: #777777;
+}
+
+.boutique ul li p span {
+    color: #ff7c2d;
+}
+
+
+/* 编程 */
+
+.biancheng {
+    height: 433px;
+    margin-top: 38px;
+    /* background-color: bisque; */
+}
+
+.biancheng nav {
+    width: 100%;
+    height: 40px;
+    /* background-color: brown; */
+}
+
+.biancheng nav h5 {
+    float: left;
+    font-size: 20px;
+    color: #494949;
+}
+
+.biancheng nav span {
+    float: right;
+    font-size: 12px;
+    margin: 8px 35px 0 0;
+    color: #a5a5a5;
+}
+
+.biancheng .PHP {
+    width: 228px;
+    height: 392px;
+    float: left;
+    background-color: #855ccc;
+}
+
+.biancheng .python {
+    width: 957px;
+    height: 100px;
+    float: right;
+    background: url(../image/pic.png);
+}
+
+.biancheng ul {
+    width: 957px;
+    height: 270px;
+    float: right;
+    margin-top: 22px;
+    /* background-color: coral; */
+}
+
+.biancheng ul li {
+    width: 228px;
+    height: 270px;
+    list-style: none;
+    float: left;
+    margin-right: 15px;
+}
+
+.biancheng ul li:last-child {
+    margin: 0;
+}
+
+.biancheng ul li img {
+    width: 228px;
+    height: 155px;
+}
+
+.biancheng ul li h6 {
+    width: 184px;
+    height: 32px;
+    font-size: 14px;
+    margin: 25px 0 0 24px;
+    color: #050505;
+}
+
+.biancheng ul li p {
+    font-size: 12px;
+    margin: 25px 0 0 20px;
+    color: #777777;
+}
+
+.biancheng ul li p span {
+    color: #ff7c2d;
+}
+
+
+/* 尾部 */
+
+footer {
+    height: 416px;
+    background-color: #ffffff;
+}
+
+.footer-left {
+    width: 50%;
+    height: 416px;
+    float: left;
+    margin-top: -15px;
+    padding: 33px 0 0 21px;
+    box-sizing: border-box;
+    /* background-color: aqua; */
+}
+
+.footer-left img {
+    width: 196px;
+    height: 44px;
+}
+
+.footer-left P {
+    font-size: 12px;
+    line-height: 18px;
+    margin: 25px 0 15px 0;
+    color: #666666;
+}
+
+.footer-left button {
+    width: 120px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #00a4ff;
+    border: solid 1px #00a4ff;
+    background-color: #ffffff;
+}
+
+.footer-right {
+    width: 50%;
+    height: 416px;
+    float: left;
+    margin-top: -15px;
+    padding: 33px 0 0 0px;
+    box-sizing: border-box;
+    /* background-color: bisque; */
+}
+
+.footer-right dl {
+    width: 33.33%;
+    float: left;
+    padding-left: 69px;
+    box-sizing: border-box;
+    color: #333333;
+}
+
+.footer-right dl dt {
+    height: 17px;
+    font-size: 16px;
+    line-height: 21px;
+    margin-bottom: 15px;
+}
+
+.footer-right dl dd {
+    font-size: 12px;
+    line-height: 21px;
+}
